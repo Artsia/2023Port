@@ -48,8 +48,8 @@ function App() {
       <div id='plinks'>{/**300-317px height by 817 */}
 
         <div className='blackCirlce'>GitHub</div>
-        <div className='blackCirlce'>Likedin</div>
-        <div className='blackCirlce'>email</div>
+        <div className='blackCirlce'>Likendin</div>
+        <div className='blackCirlce'>Email</div>
   
 
       </div>
