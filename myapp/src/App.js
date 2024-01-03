@@ -1,3 +1,7 @@
+import advice from './Images/Advice.png';
+import link from './Images/link.png';
+import word from './Images/word.png';
+
 
 function App() {
   return (
@@ -50,7 +54,6 @@ function App() {
         <div className='blackCirlce'>GitHub</div>
         <div className='blackCirlce'>Likendin</div>
         <div className='blackCirlce'>Email</div>
-  
 
       </div>
 
@@ -59,10 +62,15 @@ function App() {
       <div className='p-Grid'>
         <div className='pPic'>
           {/**w=296px h=100% */}
+          <img src={advice} />
 
         </div>
+
         <div className='pText-Repo'>
-          <p>t</p>
+          <p>In this project I built a responsive app
+            which generates random advice qoutes. 
+            The app uses the fetch library to extract data 
+            from the Advice API and displays it to the user.</p>
           <p><a>Repo</a></p>
         </div>
       </div>
@@ -70,10 +78,13 @@ function App() {
       <div className='p-Grid'>
         <div className='pPic'>
           {/**w=296px h=100% */}
+          <img src={link} />
 
         </div>
         <div className='pText-Repo'>
-          <p>t</p>
+          <p>This is a website that shorttens long URLs. T
+          he goal is to help bussiness rank higher 
+          in search result and increase readabilty.</p>
           <p><a>Repo</a></p>
         </div>
       </div>
@@ -81,20 +92,16 @@ function App() {
       <div className='p-Grid'>
         <div className='pPic'>
           {/**w=296px h=100% */}
+          <img src={word} />
 
         </div>
         <div className='pText-Repo'>
-          <p>t</p>
+          <p>Built to help improve english vocabulary for students. Comes with text-to audio
+          features that help the user pronouce and define words</p>
           <p><a>Repo</a></p>
         </div>
       </div>
       
-
-
-
-
-
-
       </div>
 
       
