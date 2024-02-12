@@ -30,7 +30,7 @@
   height: 100%;
   border: 2px solid black;
  
-  width: auto;
+  width: 100%;
 }
 
 .intro {
@@ -107,7 +107,7 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: space-around; /* Space evenly between child elements vertically */
-  
+  align-items: center;
   /*width: 960px;
   height: 944px;*/
   width:50%;
@@ -116,6 +116,7 @@ li{
 #plinks{
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   /*width: 817px;
   height: 317px;*/
 }
@@ -147,7 +148,8 @@ li{
   text-align: center;
   justify-content: space-evenly;
   /*width: 960px;*/
-  width: 100%;
+  width: 90%;
+  
   
 }
 
