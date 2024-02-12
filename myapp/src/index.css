@@ -17,8 +17,8 @@ code {
   display: flex;
   flex-direction: row;
   border: 2px solid black;
-  height: 1078px;
-  width: 1920px;
+  /*height: 1078px;
+  width: 1920px;*/
 }
 
 .intro {
@@ -26,9 +26,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 960px;
-  height: 944px;
+  /*width: 960px;
+  height: 944px;*/
+  width: 50%;
   background-color: yellow;
+
   
 }
 
@@ -37,7 +39,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  /*height: 90%;*/
 }
 
 #myName {
@@ -76,16 +78,17 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Space evenly between child elements vertically */
-  width: 960px;
-  height: 944px;
+  /*width: 960px;
+  height: 944px;*/
+  width:50%;
   background-color: rgb(123, 123, 180);
 }
 
 #plinks{
   display: flex;
   justify-content: end;
-  width: 817px;
-  height: 317px;
+  /*width: 817px;
+  height: 317px;*/
 }
 
 .blackCirlce{
@@ -112,8 +115,9 @@ li{
 
 .p-Grid {
   display: flex;
-  width: 960px;
-  border: apx dashed black;
+  /*width: 960px;*/
+  width: 100%;
+  border: 1px dashed black;
 }
 
 .pPic {
