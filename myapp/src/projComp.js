@@ -18,6 +18,7 @@ function projComp(){
           {/**209 by 871 */}
 
           <div className='p-Grid'>
+          
             <div className='pPic'>
               {/**w=296px h=100% */}
               <img src={advice} />
