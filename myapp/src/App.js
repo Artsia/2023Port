@@ -13,12 +13,6 @@ function App() {
         <ProjComp/>
 
      
-
-    
-
-     
-
-      
      
     </div>
   );
