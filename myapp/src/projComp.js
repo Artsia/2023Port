@@ -21,7 +21,7 @@ function projComp(){
           
             <div className='pPic'>
               {/**w=296px h=100% */}
-              <img src={advice} />
+              {/*<img src={advice}/>*/}
 
             </div>
 
@@ -37,7 +37,7 @@ function projComp(){
           <div className='p-Grid'>
             <div className='pPic'>
               {/**w=296px h=100% */}
-              <img src={link} />
+             {/*<img src={link} />*/} 
 
             </div>
             <div className='pText-Repo'>
@@ -51,7 +51,7 @@ function projComp(){
           <div className='p-Grid'>
             <div className='pPic'>
               {/**w=296px h=100% */}
-              <img src={word} />
+              {/*<img src={word} />*/}
 
             </div>
             <div className='pText-Repo'>
