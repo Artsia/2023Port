@@ -71,7 +71,7 @@
   font-size: 12px;
   font-weight: 700;
   box-shadow: 7px 10px 2px 1px rgb(237, 237, 237);
-  overflow-x:scroll;
+  overflow-x:hidden;
   
 }
 
@@ -200,7 +200,7 @@
 /*Add a media query for screens larger than 900px */
 @media screen and (min-width: 900px) {
   .App {
-    max-width: 700px; /* Adjust as needed */
+    max-width: 750px; /* Adjust as needed */
   }
   
   .App {
@@ -211,16 +211,64 @@
 
 
 /* Add a media query for screens below 400px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .App {
     display: flex;
     flex-direction: column; /* Stack components vertically by default */
     margin: 0; /* Remove margin to utilize full screen width */
-    box-shadow: none;
+    border: 1px solid rgb(30, 0, 255);
+    height: auto;
+    max-width: 100%; /* Adjust width to utilize full screen width */
+  }
+
+  /*#myname{
+    order: 1;
+  }
+
+  #plinks{
+    order:2;
+  }*/
+
+  .projects{
+    order: 1; /* Display projectsComp above introComp */
+    width: 70%;
+  }
+
+  .intro{
+    order:2;
+    width: 100%;
+   /* height: 100%;*/
+
+
+  }
+
+  .first-container{
+    margin-top: 5%;
+  }
+
+ #myName{
+    font-size: 0px;
   }
   
-  .App {
-    max-width: 100%; /* Adjust width to utilize full screen width */
-    padding: 10px; /* Adjust padding for better spacing on smaller screens */
+  #skills-cert{
+    
+    max-width: 85%;
+    margin-bottom: 5%;
   }
+
+
+  .skills,
+  .cert {
+      /*border:none;*/
+      box-shadow: none;
+      line-height: 1px;
+     
+      
+  }
+
+
+
+ 
+  
+ 
 }

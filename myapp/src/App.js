@@ -1,5 +1,6 @@
 import IntroComp from './introComp';
 import ProjComp from './projComp';
+import "./index.css";
 
 
 function App() {
