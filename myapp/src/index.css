@@ -19,7 +19,7 @@
   width: 960px;
   height: 944px;*/
   width: 50%;
-  background-color: white;
+ 
 
   
 }
@@ -27,8 +27,9 @@
 .first-container {
   display: flex;
   height: 100%;
+  width: 100%;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content:space-evenly;
   align-items: center;
   
 }
@@ -38,6 +39,10 @@
   width: 100%; 
   text-align: center;
   font-size: 36px;
+  /*border: 1px solid black;*/
+
+  
+  
   /*margin-bottom: 20px;*/ /* Add margin to separate #myName from #skills-cert */
 }
 
@@ -45,16 +50,17 @@
   display: flex;
   justify-content: space-around;
   width: 100%; /* Set the width to 100% to ensure it spans the entire width of the parent container */
- 
+  
+  /*border: 1px solid black;*/
 
 }
 
 .skills{
-  width:40%;
+  width:45%;
 }
 
 .cert{
-  width:40%;
+  width:45%;
 }
 
 .skills,
@@ -63,8 +69,9 @@
   /*margin: 0 10px;*/ /* Add margin for spacing between .skills and .cert */
   border: 1px black solid;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   box-shadow: 7px 10px 2px 1px rgb(237, 237, 237);
+  overflow-x:scroll;
   
 }
 
@@ -76,7 +83,7 @@
   list-style: none;
   text-decoration: none;
   margin: 0 1%;
-  line-height: 30px;
+  line-height: 25px;
   
 }
 
@@ -188,3 +195,32 @@
   background-color: black;
 }*/
 
+
+
+/*Add a media query for screens larger than 900px */
+@media screen and (min-width: 900px) {
+  .App {
+    max-width: 700px; /* Adjust as needed */
+  }
+  
+  .App {
+    margin: 0 auto; /* Center the content wrapper horizontally */
+  }
+}
+
+
+
+/* Add a media query for screens below 400px */
+@media screen and (max-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: column; /* Stack components vertically by default */
+    margin: 0; /* Remove margin to utilize full screen width */
+    box-shadow: none;
+  }
+  
+  .App {
+    max-width: 100%; /* Adjust width to utilize full screen width */
+    padding: 10px; /* Adjust padding for better spacing on smaller screens */
+  }
+}

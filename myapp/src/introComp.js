@@ -19,7 +19,7 @@ function introComp(){
                                 <ol><li>JavaScript</li></ol>
                                 <ol><li>Python</li></ol>
 
-                            <li>Libraries/Frameworks:</li>
+                            <li>Frameworks:</li>
                                 <ol><li>ReactJS</li></ol>
                                 <ol><li>MaterialUI</li></ol>
 
