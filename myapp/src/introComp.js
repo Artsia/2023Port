@@ -14,10 +14,22 @@ function introComp(){
                     <div className='skills'>
                         <h3>Skills</h3>
                         <ul>
-                            <li>Programming Languages: Java, Python, JavaScript</li>
-                            <li>Libraries/Frameworks: React</li>
-                            <li>Tools / Platforms: Visual Studio, Notepad++</li>
-                            <li>Databases: Mysql, PostgreSQL, MongoDB</li>
+                            <li>Languages:</li>
+                                <ol><li>Java</li></ol>
+                                <ol><li>JavaScript</li></ol>
+                                <ol><li>Python</li></ol>
+
+                            <li>Libraries/Frameworks:</li>
+                                <ol><li>ReactJS</li></ol>
+                                <ol><li>MaterialUI</li></ol>
+
+                            <li>Tools:</li>
+                                <ol><li> Visual Studio</li></ol>
+                           
+                            <li>Databases:</li>
+                                <ol><li> Mysql</li></ol>
+                                <ol><li> PostgreSQL</li></ol>
+                                <ol><li> MongoDB</li></ol>
                         </ul>
 
                     </div>

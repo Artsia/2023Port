@@ -62,7 +62,7 @@
   /*flex: 1;*/ /* Distribute the available space equally between .skills and .cert */
   /*margin: 0 10px;*/ /* Add margin for spacing between .skills and .cert */
   border: 1px black solid;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   box-shadow: 7px 10px 2px 1px rgb(237, 237, 237);
   
@@ -168,7 +168,9 @@
   flex-direction: column;
   font-weight: 600;
   font-size: 12px;
-  justify-content: space-between; /* Aligns the paragraphs with space between them */
+  justify-content: space-evenly;
+  
+  /*justify-content: space-between;*/ /* Aligns the paragraphs with space between them */
 }
 
 /*.pText-Repo p:last-child {
