@@ -114,12 +114,16 @@
   width: 70px;
   height: 65px;
   background-color: black;
-  color:white;
+ 
   align-items: center;
   justify-content: center;
   border-radius: 100%;
   margin: 0 1px;
 
+}
+
+.blackCirlce a{
+  color:white;
 }
 
 
