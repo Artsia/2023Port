@@ -9,9 +9,9 @@ function projComp(){
         
           <div id='plinks'>{/**300-317px height by 817 */}
 
-            <div className='blackCirlce'>GitHub</div>
-            <div className='blackCirlce'>Likendin</div>
-            <div className='blackCirlce'>Email</div>
+            <div className='blackCirlce'><a href="https://github.com/Artsia" target="_blank">GitHub</a></div>
+            <div className='blackCirlce'><a href="https://www.linkedin.com/in/phillip-kataswa-work/?originalSubdomain=ca" target="_blank">Likendin</a></div>
+            <div className='blackCirlce'><a href="mailto:tomphillip756@gmail.com">Email</a></div>
 
           </div>
 
