@@ -7,13 +7,9 @@ function App() {
   return (
     <div className="App">
 
-  
-
         <IntroComp/>
         
         <ProjComp/>
-
-     
      
     </div>
   );
