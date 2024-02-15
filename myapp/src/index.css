@@ -216,7 +216,7 @@
     display: flex;
     flex-direction: column; /* Stack components vertically by default */
     margin: 0; /* Remove margin to utilize full screen width */
-    border: 1px solid rgb(30, 0, 255);
+    /*border: 1px solid rgb(30, 0, 255);*/
     height: auto;
     max-width: 100%; /* Adjust width to utilize full screen width */
   }
